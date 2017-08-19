@@ -24,20 +24,3 @@ ListTodos.propTypes = {
 }
 
 export default ListTodos;
-
-// const mapStateToProps = state => {
-//   console.log("ListTodos.js --------------- : ", state)
-//   return {
-//     todos: state.todos
-//   }
-// }
-
-// const mapDispatchToProps = dispatch => {
-//   return {
-//     toggleTodo: (e) => dispatch(Action_ToggleTodo(e))
-//   }
-// }
-
-// export default connect(
-//   mapStateToProps, 
-// )(ListTodos);
